@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #f4f5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: #ffffff;
+    margin: 8px 2px ;
+    border-radius: 180px;
+}
+
+main{
+    width: 100dvh;
+    height: 100dvh;
+}
+
+i{
+    color: #848484;
+    font-size: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+    h2{
+        font-size: 14px;
+    }
+
+     p{
+        font-size: 12px;
+    }
+}
+
+#logo{
+    border-radius: 100%;
+    width: 50px;
+}
+
+.itens img{
+    margin: 1px;
+    width: 90px;
+    border-radius: 12px;
+}
+
+.itens{
+    border-radius: 20px;
+    background: #ffffff;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.infos{
+    margin: 12px;
+    text-align: center;
+}
+
+h2{
+    color: #848484;
+}
+
+.btn-comprar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: green;
+}
+
+.area-de-compra{
+    margin-right: 6px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 110px;
+    border-radius: 12px;
+}
+
+.card{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 4px;
+    align-items: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.palhas{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 400px) {
+    .card{
+        width: 115px;
+    }
+}
+
+#promo{
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: red;
+    width: 98%;
+    margin: auto;
+    height: 150px;
+}
+
+#promo h1{
+    color: #ffff00;
+}
+
+#promo p{
+    color: #f4f5f6;
+}
+
+#Wpp-btn{
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008000;
+    padding: 12px;
+}
+
+#Wpp-btn i{
+    padding-right: 6px;
+    font-size: 16px;
+    color: #ffffff;
+}
