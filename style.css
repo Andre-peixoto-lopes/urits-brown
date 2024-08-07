@@ -91,6 +91,11 @@ h2{
     background-color: green;
 }
 
+.btn-comprar:hover{
+    transition: all 0.5s;
+    background: #25d366;
+}
+
 .area-de-compra{
     margin-right: 6px;
     align-items: center;
@@ -134,6 +139,11 @@ h2{
     align-items: center;
     background-color: #25d366;
     padding: 8px 36px;
+}
+
+#Wpp-btn:hover{
+    transition: all 0.5s;
+    background: #1e9248;
 }
 
 #Wpp-btn i{

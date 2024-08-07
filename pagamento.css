@@ -92,6 +92,11 @@ a{
     padding: 8px 36px;
 }
 
+#Wpp-btn:hover{
+    transition: all 0.5s;
+    background: #1e9248;
+}
+
 #Wpp-btn i{
     padding-right: 6px;
     font-size: 20px;
@@ -111,11 +116,13 @@ a{
 }
 
 #pix img{
+    padding: 20px 0px;
     width: 240px;
 }
 
 #pix p{
     border: 1px solid #848484;
     border-radius: 12px;
+    margin: 12px 0px;
     padding: 12px 36px;
 }
